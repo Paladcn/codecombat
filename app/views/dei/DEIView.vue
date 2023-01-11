@@ -265,7 +265,7 @@ export default {
         background: transparent;
       }
 
-      &::v-deep .modal-container {
+      &::v-deep (.modal-container) {
         border: 10px solid $teal-light-2;
         border-image-slice: 1;
         border-image-source: linear-gradient(to bottom right, rgb(50, 119, 215), rgb(133, 237, 200));
@@ -273,16 +273,16 @@ export default {
         background: transparent;
       }
 
-      &::v-deep .modal-container > .container {
+      &::v-deep (.modal-container > .container) {
         background: transparent;
       }
 
-      &::v-deep h1 {
+      &::v-deep (h1) {
         display: none;
         text-decoration: underline;
       }
 
-      &::v-deep .button-area {
+      &::v-deep (.button-area) {
         display: none;
       }
     }

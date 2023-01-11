@@ -26,7 +26,7 @@
 
 <style lang="sass" scoped>
   .modal
-    ::v-deep .container
+    ::v-deep (.container)
       width: 100%
       height: 100%
 

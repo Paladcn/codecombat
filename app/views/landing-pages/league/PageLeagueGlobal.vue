@@ -1016,23 +1016,23 @@ export default {
     color: white;
   }
 
-  ::v-deep .esports-pink {
+  ::v-deep (.esports-pink) {
     color: #ff39a6;
   }
 
-  ::v-deep .esports-goldenlight {
+  ::v-deep (.esports-goldenlight) {
     color: #f7d047;
   }
 
-  ::v-deep .esports-aqua {
+  ::v-deep (.esports-aqua) {
     color: #30efd3;
   }
 
-  ::v-deep .esports-green {
+  ::v-deep (.esports-green) {
     color: #bcff16;
   }
 
-  ::v-deep .esports-purple {
+  ::v-deep (.esports-purple) {
     color: #9b83ff;
   }
 
@@ -1099,7 +1099,7 @@ export default {
     margin: 25px 0;
   }
 
-  ::v-deep .row.flex-row {
+  ::v-deep (.row.flex-row) {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1118,7 +1118,7 @@ export default {
       transform: unset;
     }
 
-    ::v-deep div.clan-description {
+    ::v-deep (div.clan-description) {
       color: white;
 
       h1, h2, h3, h4, h5, h6 {
@@ -1211,7 +1211,7 @@ export default {
     font-size: 72px;
   }
 
-  ::v-deep .subheader2 {
+  ::v-deep (.subheader2 ){
     font-size: 29px;
     line-height: 40px;
   }
@@ -1283,7 +1283,7 @@ export default {
     margin-bottom: 100px;
   }
 
-  ::v-deep .btn-primary.btn-moon {
+  ::v-deep (.btn-primary.btn-moon) {
     background-color: #d1b147;
     border-radius: 4px;
     color: #232323;
@@ -1301,7 +1301,7 @@ export default {
     }
   }
 
-  ::v-deep .section-space {
+  ::v-deep (.section-space) {
     margin-bottom: 110px;
   }
   .w-100 {
@@ -1409,17 +1409,17 @@ export default {
   }
 
   @media screen and (min-width: 768px) {
-    ::v-deep .btn-primary.btn-moon, .play-btn-cta {
+    ::v-deep (.btn-primary.btn-moon, .play-btn-cta) {
       padding: 20px 100px;
     }
 
     .esports-flyer-optimized-section {
-      ::v-deep .btn-primary.btn-moon, .play-btn-cta {
+      ::v-deep (.btn-primary.btn-moon, .play-btn-cta) {
         padding: 20px 20px;
       }
     }
 
-    ::v-deep .section-space {
+    ::v-deep (.section-space) {
       margin-bottom: 50px;
     }
 
@@ -1429,7 +1429,7 @@ export default {
   }
 
   @media screen and (max-width: 767px) {
-    ::v-deep .row.flex-row {
+    ::v-deep (.row.flex-row) {
       display: table;
     }
 
@@ -1437,7 +1437,7 @@ export default {
       padding: 0px;
     }
 
-    ::v-deep .btn-primary.btn-moon {
+    ::v-deep (.btn-primary.btn-moon) {
       font-size: 14px;
       padding: 8px 24px;
     }
@@ -1477,7 +1477,7 @@ export default {
     .xs-centered {
       text-align: center;
     }
-    ::v-deep .xs-m-0 {
+    ::v-deep (.xs-m-0) {
       margin: 0px;
     }
     .xs-mt-0 {

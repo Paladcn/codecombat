@@ -308,7 +308,7 @@ export default {
   width: 800px;
 }
 
-::v-deep .title {
+::v-deep (.title) {
   padding-top: 10px;
 }
 

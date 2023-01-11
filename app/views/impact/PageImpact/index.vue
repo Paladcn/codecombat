@@ -617,7 +617,7 @@ p, .text-p {
 
 #ozaria-efficacy {
   padding-bottom: 50px;
-  ::v-deep #ozaria-stats {
+  ::v-deep (#ozaria-stats) {
     margin-top: 0;
   }
   .text-h3 {
